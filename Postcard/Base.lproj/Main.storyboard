@@ -104,6 +104,15 @@
                                     <rect key="frame" x="250" y="168" width="80" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5X6-E5-hkM">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="168" width="226" height="42"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="nb8-AY-Nbz"/>
                                 <exclude reference="t7X-KV-vAh"/>
                                 <exclude reference="hEG-l0-RpA"/>
+                                <exclude reference="5X6-E5-hkM"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="nb8-AY-Nbz"/>
                                 <include reference="t7X-KV-vAh"/>
                                 <include reference="hEG-l0-RpA"/>
+                                <include reference="5X6-E5-hkM"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="t7X-KV-vAh" id="rp2-4s-1EW"/>
                         <outlet property="mailButton" destination="7hT-Bo-7ZG" id="q4I-5B-jSd"/>
                         <outlet property="messageLabel" destination="nb8-AY-Nbz" id="cNE-GA-2sc"/>
+                        <outlet property="nameLabel" destination="5X6-E5-hkM" id="Toq-Uw-gbU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
